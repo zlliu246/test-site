@@ -1,0 +1,19 @@
+<h1>This is the title</h1>
+
+<p>This is a paragraph that contains a whole bunch of words. More words. More words</p>
+
+<button class="my-button" onclick="increase()">click me</button>
+
+<h1 id="number">1</h1>
+
+<p>This is another paragraph containing a bunch of random words. apple orange pear.</p>
+
+<script>
+
+function increase() {
+  const h1 = document.getElementById('number')
+  const number = parseInt(h1.innerHTML)
+  h1.innerHTML = number + 1
+}
+  
+</script>
